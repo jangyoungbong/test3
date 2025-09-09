@@ -1,0 +1,73 @@
+#main {
+  width: 750px;
+  float: right;
+  margin-right: 25px;
+}
+
+#main-img {
+  position: relative;
+  top: 0px;  /* 아래로 이동 */
+  left: 20px; /* 오른쪽으로 이동 */
+}
+
+#bach-img {
+  width: 220px;
+  height: auto ;
+  position: relative;
+  border: 1px solid #333;
+  align-items: center;
+  justify-content: center;
+  top: 00px;  /* 아래로 이동 */
+  left: 4px; /* 오른쪽으로  이동 */
+  
+}
+
+#notice_free_youtube {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  
+}
+#notice,
+#free {
+  display: flex;
+  flex-direction: column;;
+}
+
+#notice, #free, #youtube {
+  
+  width: 250px;
+  border: 1px solid #ccc;
+  padding: 10px;
+  background-color: #fff;
+}
+
+
+#notice h3, #free h3, #youtube h3 {
+  margin-bottom: 10px;
+  font-size: 14px;
+  color: #497a3d;
+}
+
+#gallery h3 {
+  margin-bottom: 10px;
+  font-size: 14px;
+  color: #497a3d;
+  margin-bottom: 20px;
+}
+#gallery ul {
+  display: flex;
+  justify-content: space-between;
+}
+#gallery li {      /* 하단 그림 글씨(텍스트)*/
+  text-align: center;
+  width: 30%;
+  margin-bottom: 20px;
+}
+#gallery img {           /*하단 그림*/
+  width: 100%;
+  height: auto;
+  border: 1px solid #ccc;
+  margin-bottom: 20px;
+}
+

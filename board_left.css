@@ -1,0 +1,79 @@
+aside {
+  width: 200px;
+  float: left;
+  background-color: white;
+  padding: 10px;
+}
+#login_box {
+  border: 1px solid #ccc;
+  border-radius: 5%;
+  padding: 10px;
+  background-color: rgb(245, 243, 243);
+  height: 120px;
+  margin-top: 8px;
+}
+
+#login_title {
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+#login-img {
+  position: relative;
+  top: -78px;  /* 아래로 10px 이동 */
+  left: 100px; /* 오른쪽으로 15px 이동 */
+  cursor: pointer;
+}
+
+#login2-img {
+  position: relative;
+  top: -70px;  /* 아래로 10px 이동 */
+  left: 46px; /* 오른쪽으로 15px 이동 */
+}
+#회원가입{
+  position: relative;
+  margin-top: 7px;    
+  margin-left: -2px;
+}
+
+#login_input input {
+  width: 60%;
+  padding: 5px;
+  margin-bottom: 5px;
+  border: 1px solid #ccc;
+}
+#login_btn input {
+  width: 40%;
+}
+#join_search {  
+  font-size: 11px;
+  margin-top: 5px;
+}
+
+#sub_menu_box{
+  border: 1px solid #ccc;
+  border-radius: 5%;
+  padding: 10px;
+  background-color: rgb(245, 243, 243);
+  height: 120px;
+  margin-top: 8px;
+}
+
+#sub_menu ul {
+  margin-top: -50px;
+  text-align: center;
+}
+#sub_menu li {
+  margin: 10px 0;
+  margin-top: 45px;
+  font-size: 14px;
+  font-weight: bold;
+  padding: 10px auto;
+}
+
+#sub_menu a {
+  color:rgb(78, 77, 77);
+}
+#sub_menu a:hover {
+  text-decoration: underline;
+}

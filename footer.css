@@ -1,0 +1,28 @@
+footer {
+  clear: both;
+  background-color: #3a3a3a;
+  color: white;
+  padding: 20px 10px;
+  font-size: 12px;
+  display: flex;
+  justify-content: space-between;
+  clear: both;
+}
+#footer_logo {
+  font-size: 16px;
+  font-weight: bold;
+}
+#address {
+  line-height: 1.5;
+}
+
+#footer_sns ul {
+  display: flex;
+  gap: 10px;
+}
+#footer_sns li img {
+  width: 24px;
+  height: 24px;
+  border-radius: 10px;
+  cursor: pointer;
+}

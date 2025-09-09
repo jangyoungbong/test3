@@ -1,0 +1,45 @@
+header {                         
+  font-size: 14px;
+  background-color: #fff;
+  padding: 20px;
+  border-bottom: 2px solid #ccc;
+}
+#logo img {
+  float: left;
+  height: 50px;
+}
+#top_menu {
+  float: right;
+  margin-top: 10px;
+}
+#top_menu a {
+  margin-left: 10px;
+  color: #666;
+}
+
+
+#main_menu {
+  border: 1px solid #497a3d;
+  clear: both;
+  background-color: #497a3d;
+  margin-top: 20px;
+  background: linear-gradient(to bottom, rgb(252, 252, 187), #497a3d, #497a3d);
+}
+#main_menu ul {
+  display: flex;
+  padding: 0;
+  margin: 0;
+}
+#main_menu li {
+  flex: 1;
+  text-align: center;
+}
+#main_menu a {
+  display: block;
+  padding: 15px 0;
+  color: white;
+  font-weight: bold;
+}
+#main_menu a:hover {
+  background-color: #355b2d;
+}
